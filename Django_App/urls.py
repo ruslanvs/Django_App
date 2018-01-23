@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^blogs/', include( 'apps.blogs.urls') ),
     url(r'^time_display/', include( 'apps.Time_Display.urls') ),
+    url(r'^random_word/', include( 'apps.random_word.urls') ),
 ]
